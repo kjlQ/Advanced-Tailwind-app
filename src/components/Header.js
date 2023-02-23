@@ -48,7 +48,7 @@ function Header() {
 
   return (
     <div
-      className={`fixed top-2 w-full z-10 flex justify-center ${
+      className={`fixed top-2 w-full z-50 flex justify-center ${
         showHeader
           ? "slide-down opacity-100 transition duration-300 ease-in-out transform"
           : "slide-up opacity-0 transition duration-300 ease-in-out transform "
