@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="grid grid-cols-2 h-screen items-center">
+    <div className="grid grid-cols-2 h-screen items-center md:grid-cols-1 md:mt-[100px]">
       <div className="w-fit">
         <h1 className="text-6xl font-semibold text-primary">
           The Best <b className="text-secondary">Marketing</b>

@@ -43,9 +43,9 @@ function MarketingStrategies() {
         presence and engage with potential customers.Partner with complementary businesses to expand your reach and
         attract new customers.
       </p>
-      <div className="grid grid-cols-2 mt-10">
+      <div className="grid grid-cols-2 mt-10 md:grid-cols-1">
         {strategies.map((item) => (
-          <div className="w-5/6 bg-opacity-40 m-auto border rounded-2xl p-4 mb-11 hover:scale-105 transition-all hover:shadow-2xl bg-gray-100 ">
+          <div className="w-5/6 bg-opacity-40 m-auto border rounded-2xl p-4 mb-11 hover:scale-105 transition-all hover:shadow-2xl bg-gray-100  md:w-11/12">
             <p className="text-center">{item.title}</p>
             <span className="flex justify-center mb-3 mt-9">{item.img}</span>
             <p className=" text-center m-auto mb-12 ">{item.strategie}</p>

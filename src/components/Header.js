@@ -53,13 +53,13 @@ function Header() {
           : "slide-up opacity-0 transition duration-300 ease-in-out transform "
       }`}
     >
-      <div className="flex justify-center gap-x-10 bg-primary w-fit py-4 px-10 rounded-2xl ">
+      <div className="flex justify-center gap-x-10 bg-primary w-fit py-4 px-10 rounded-2xl md:w-[100%] md:gap-x-0 md:justify-between md:rounded-none md:px-6">
         {menuItem.map((item) => (
           <Link className="" to={item.path}>
             <div
               className={`${
                 item.path === location.pathname && "border-b border-secondary opacity-100"
-              } text-secondary text-xl px-2 opacity-90 hover:opacity-100`}
+              } text-secondary text-xl px-2 opacity-90 hover:opacity-100 md:text-sm`}
             >
               {item.title}
             </div>

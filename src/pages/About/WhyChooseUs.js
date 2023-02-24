@@ -21,11 +21,11 @@ const items = [
 ];
 function WhyChooseUs() {
   return (
-    <div className="mx-32 mt-20 border shadow mb-20">
+    <div className="mx-32 mt-20 border shadow mb-20 md:mx-2">
       <div className="bg-primary h-72 w-full flex justify-center items-center">
-        <h1 className="text-7xl font-semibold text-white ">Why Choose US</h1>
+        <h1 className="text-7xl font-semibold text-white md:px-5">Why Choose US</h1>
       </div>
-      <div className="grid grid-cols-3 p-5 gap-10 ">
+      <div className="grid grid-cols-3 p-5 gap-10 md:grid-cols-1">
         {items.map((item) => (
           <div className="p-5 bg-white border shadow border-t-8 border-t-secondary rounded-t-lg flex flex-col space-y-5 items-center transform hover:scale-105 duration-300">
             <img src={item.image} className="h-20 w-20" />

@@ -2,11 +2,11 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="w-1/2 m-auto">
+    <div className="w-1/2 m-auto md:w-11/12">
       <form className="flex flex-col space-y-10">
         <h1 className="text-4xl font-semibold text-primary mb-5">Send a Message</h1>
 
-        <div className="flex space-x-10">
+        <div className="flex space-x-10 md:flex-col md:space-x-0 md:gap-10">
           <input
             type="text"
             placeholder="First name"
@@ -20,7 +20,7 @@ function ContactForm() {
           />
         </div>
 
-        <div className="flex space-x-10">
+        <div className="flex space-x-10 md:flex-col md:space-x-0 md:gap-10">
           <input
             type="text"
             placeholder="Email"
