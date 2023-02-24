@@ -6,13 +6,11 @@ import WhyMarketing from "./WhyMarketing";
 
 function Home() {
   return (
-    <Layout>
-      <div className="w-4/5 m-auto">
-        <Intro />
-        <MarketingStrategies />
-        <WhyMarketing />
-      </div>
-    </Layout>
+    <div className="w-4/5 m-auto">
+      <Intro />
+      <MarketingStrategies />
+      <WhyMarketing />
+    </div>
   );
 }
 export default Home;

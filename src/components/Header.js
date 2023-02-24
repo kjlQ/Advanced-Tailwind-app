@@ -27,6 +27,7 @@ const menuItem = [
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const location = useLocation();
 
   useEffect(() => {
     function handleScroll() {
@@ -43,8 +44,6 @@ function Header() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
-
-  const location = useLocation();
 
   return (
     <div

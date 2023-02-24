@@ -6,11 +6,11 @@ import WhyChooseUs from "./WhyChooseUs";
 
 function About() {
   return (
-    <Layout>
+    <>
       <Intro />
       <WhatWeDo />
       <WhyChooseUs />
-    </Layout>
+    </>
   );
 }
 export default About;
